@@ -1,0 +1,112 @@
+
+
+
+
+.header, .hero, .footer{
+    background-color: #1f2937;
+    color: #F9FAF8
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;    
+}
+
+.link{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo{
+    font-size:24px;
+}
+
+.main{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondary, .link{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a{
+    text-decoration: none;
+    color:#F9FAF8;
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.image-sets{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+}
+
+.image{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    border:4px solid #3882f6;
+    border-radius: 8px;
+    width:150px;
+
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.call-action{
+    background-color: #3882f6;
+    color:#F9FAF8;
+    display: flex;
+    padding: 25px;
+    margin: 50px;
+}
+
+button{
+    background-color: #3882f6;
+    color:#F9FAF8;
+    border-radius: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+}
